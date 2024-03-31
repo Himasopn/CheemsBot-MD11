@@ -6740,14 +6740,14 @@ if (typemenu === 'v1') {
                     })
                 }   if (typemenu === 'v3') {
                     XeonBotInc.sendMessage(m.chat, {
-                        video: fs.readFileSync('./XeonMedia/theme/Cheems-bot.mp4'),
+                        video: fs.readFileSync('./XeonMedia/theme/VID_20240331_103235_268.mp4'),
                         caption: xmenu_oh
                     }, {
                         quoted: m
                     })
                 } else if (typemenu === 'v4') {
                     XeonBotInc.sendMessage(m.chat, {
-                        video: fs.readFileSync('./XeonMedia/theme/Cheems-bot.mp4'),
+                        video: fs.readFileSync('./XeonMedia/theme/VID_20240331_103235_268.mp4'),
                         caption: xmenu_oh,
                         gifPlayback: true
                     }, {
@@ -6804,7 +6804,7 @@ if (typemenu === 'v1') {
                     })
                 } else if (typemenu === 'v8') {
                 	XeonBotInc.sendMessage(m.chat, {
-      video: fs.readFileSync('./XeonMedia/theme/Cheems-bot.mp4'),
+      video: fs.readFileSync('./XeonMedia/theme/VID_20240331_103235_268.mp4'),
       gifPlayback: true,
       caption: xmenu_oh,
       contextInfo: {
