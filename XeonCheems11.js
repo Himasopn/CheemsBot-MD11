@@ -6782,7 +6782,7 @@ if (typemenu === 'v1') {
                 } else if (typemenu === 'v7') {
                     XeonBotInc.sendMessage(m.chat, {
                         document: {
-                           url: 'https://i.ibb.co/2W0H9Jq/avatar-contact.png'
+                           url: 'https://telegra.ph/file/47a568588f162806b7c79.jpg'
                         },
                         caption: xmenu_oh,
                         mimetype: 'application/zip',
@@ -6793,7 +6793,7 @@ if (typemenu === 'v1') {
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnail: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
+                                thumbnail: fs.readFileSync('./XeonMedia/theme/genshin.jpg'),
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -6811,7 +6811,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/47a568588f162806b7c79.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
@@ -6827,7 +6827,7 @@ break
 let xmenu_oh = `Hi ${pushname}${readmore}\n\n${allmenu(prefix, hituet)}`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
-                        image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
+                        image: fs.readFileSync('./XeonMedia/theme/genshin.jpg'),
                         caption: xmenu_oh
                     }, {
                         quoted: m
@@ -6840,7 +6840,7 @@ if (typemenu === 'v1') {
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnail: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
+                                thumbnail: fs.readFileSync('./XeonMedia/theme/genshin.jpg'),
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -6915,14 +6915,14 @@ if (typemenu === 'v1') {
                     })
                 } else if (typemenu === 'v8') {
                 	XeonBotInc.sendMessage(m.chat, {
-      video: fs.readFileSync('./XeonMedia/theme/Cheems-bot.mp4'),
+      video: fs.readFileSync('./XeonMedia/theme/VID_20240331_103235_268.mp4'),
       gifPlayback: true,
       caption: xmenu_oh,
       contextInfo: {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://i.ibb.co/Wppj16p/cheemspic.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/47a568588f162806b7c79.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
