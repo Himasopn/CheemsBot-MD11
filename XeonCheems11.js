@@ -6752,7 +6752,7 @@ if (typemenu === 'v1') {
                     XeonBotInc.relayMessage(m.chat,  {
                        requestPaymentMessage: {
                           currencyCodeIso4217: 'INR',
-                          amount1000: '917002015750',
+                          amount1000: '777',
                           requestFrom: m.sender,
                           noteMessage: {
                              extendedTextMessage: {
@@ -6974,7 +6974,7 @@ if (typemenu === 'v1') {
                     XeonBotInc.relayMessage(m.chat,  {
                        requestPaymentMessage: {
                           currencyCodeIso4217: 'INR',
-                          amount1000: '9999999900',
+                          amount1000: '777',
                           requestFrom: m.sender,
                           noteMessage: {
                              extendedTextMessage: {
