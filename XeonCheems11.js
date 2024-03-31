@@ -6673,7 +6673,6 @@ case 'blur':
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
 │𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
 │𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 │𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 └─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊
 │𝗡𝗮𝗺𝗲 : ${pushname}
@@ -6753,7 +6752,7 @@ if (typemenu === 'v1') {
                     XeonBotInc.relayMessage(m.chat,  {
                        requestPaymentMessage: {
                           currencyCodeIso4217: 'INR',
-                          amount1000: '9999999900',
+                          amount1000: '917002015750',
                           requestFrom: m.sender,
                           noteMessage: {
                              extendedTextMessage: {
@@ -6802,7 +6801,7 @@ if (typemenu === 'v1') {
       thumbnailUrl: 'https://telegra.ph/file/47a568588f162806b7c79.jpg',
       sourceUrl: ``,
       mediaType: 1,
-      renderLargerThumbnail: true
+      renderLargerThumbnail: false
       }
       }
       }, {
