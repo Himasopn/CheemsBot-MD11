@@ -6716,7 +6716,7 @@ case 'blur':
 └─────────────────┈ ⳹`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
-                        image: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
+                        image: fs.readFileSync('./XeonMedia/theme/genshin.jpg'),
                         caption: xmenu_oh
                     }, {
                         quoted: m
@@ -6729,7 +6729,7 @@ if (typemenu === 'v1') {
                                 showAdAttribution: true,
                                 title: botname,
                                 body: ownername,
-                                thumbnail: fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'),
+                                thumbnail: fs.readFileSync('./XeonMedia/theme/genshin.jpg'),
                                 sourceUrl: wagc,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
